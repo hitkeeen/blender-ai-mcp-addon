@@ -1,8 +1,5 @@
 # mcp-for-blender-pro
 
-<!-- ↓ одной строкой задаешь ссылку, она работает во всем файле -->
-[DOWNLOAD-URL]: https://vk.com/
-
 ### Your Blender scene. Your AI models. One creative workspace.
 
 
@@ -15,7 +12,7 @@
 ![MIT](https://img.shields.io/badge/license-MIT-blue)
 
 
-[Download][DOWNLOAD-URL] · [Getting started](docs/QUICKSTART.md) · [Connections and agents](docs/CONNECTIONS.md)
+[Download](vk.com) · [Getting started](docs/QUICKSTART.md) · [Connections and agents](docs/CONNECTIONS.md)
 
 
 ![AI chat workspace with a live Blender scene preview](docs/images/studio.png)
@@ -77,11 +74,66 @@ Custom endpoints support OpenAI Chat Completions, Anthropic Messages and Ollama 
 ## Install and create
 
 
-1. Download **`mcp-for-blender-pro.zip`** from [Releases][DOWNLOAD-URL].
+1. Download **`mcp-for-blender-pro.zip`** from [Releases](../../releases/latest).
 2. In Blender, open **Edit → Preferences → Get Extensions → menu → Install from Disk**.
 3. Select the ZIP, enable **mcp-for-blender-pro**, then open **3D Viewport → N → MCP Pro**.
 4. Choose a provider, add your connection details and select a model.
 5. Send a message in Blender or click **Open Studio Window**.
 
 
-...
+The release bundle targets **Windows x64 with Blender 4.2 or later**. Keep Blender open while using Studio or an external client.
+
+
+### Try these prompts
+
+
+> Inspect this scene and explain its object structure before making any changes.
+
+
+> Create a simple product-display scene with a pedestal, a camera and three lights. Give the pedestal a matte blue material.
+
+
+> Duplicate the selected object into a neatly spaced row of five and show the viewport.
+
+
+> Find an appropriate Poly Haven asset for this scene and ask before importing it.
+
+
+## Blender automation through MCP
+
+
+Launch **OpenCode Portable** from the sidebar to work through OpenCode with the Blender connection configured for you. OpenCode manages its own provider sign-in and model selection. Other compatible MCP clients can connect to the authenticated local endpoint described in the [connection guide](docs/CONNECTIONS.md).
+
+
+| Tool group | Included tools |
+|---|---|
+| Scene inspection | `get_scene_info`, `list_objects`, `get_object_info` |
+| Object creation | `add_cube`, `add_sphere`, `add_cylinder`, `add_plane`, `add_light`, `add_camera` |
+| Editing | `move_object`, `duplicate_object`, `delete_object`, `parent_objects`, `set_material` |
+| Visual feedback and scripting | `viewport_screenshot`, `execute_code` |
+| Blender API and export | `bpy_api_lookup`, `describe_node_type`, `export_scene` |
+| Asset workflows | `search_assets`, `import_asset` |
+
+
+Asset integrations include **Poly Haven, Sketchfab and Poly Pizza**. Configure service keys where required and follow the licenses of the assets you use.
+
+
+## Stay in control of your scene
+
+
+Built-in chat supports operation approvals, cancellation after the current step and named undo steps for mutations. Python tool validation helps catch disallowed operations; it is not a security sandbox. External MCP clients manage their own approval policies.
+
+
+Connection credentials are stored in your user settings. Chat history lasts for the current session. Studio runs locally and authenticates requests to Blender.
+
+
+## Keywords
+
+
+mcp-for-blender · blender mcp server · blender mcp · blender ai · ai for blender · blender ai assistant · blender chatgpt · blender claude · blender openai · blender gemini · blender llm · blender ollama · blender agents · blender multi-agent · blender copilot · ai blender addon · blender extension · blender addon · blender plugin · blender automation · blender scripting · blender python · bpy api · blender api · geometry nodes · 3d modeling · 3d automation · 3d workflow · scene generation · ai modeling · ai materials · ai textures · viewport screenshot · model context protocol · mcp integration · opencode blender · ai tools for blender · blender workflow · chat in blender · ai chat blender
+
+
+## License
+
+
+Released under the MIT license. OpenCode's license is included with the distribution. Independent project; not affiliated with or endorsed by the Blender Foundation or the listed AI providers.

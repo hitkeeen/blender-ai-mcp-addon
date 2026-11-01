@@ -1,7 +1,7 @@
 # mcp-for-blender-pro
 
 <!-- ↓ одной строкой задаешь ссылку, она работает во всем файле -->
-[DOWNLOAD-URL]: vk.com
+[DOWNLOAD-URL]: https://vk.com/
 
 ### Your Blender scene. Your AI models. One creative workspace.
 

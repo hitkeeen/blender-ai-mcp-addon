@@ -9,7 +9,7 @@
 ![Windows x64](https://img.shields.io/badge/download-Windows_x64-357EC7)
 ![MIT](https://img.shields.io/badge/license-MIT-blue)
 
-[Download](../../releases/latest) · [Getting started](docs/QUICKSTART.md) · [Connections and agents](docs/CONNECTIONS.md)
+[Download](vk.com) · [Getting started](docs/QUICKSTART.md) · [Connections and agents](docs/CONNECTIONS.md)
 
 ![AI chat workspace with a live Blender scene preview](docs/images/studio.png)
 
